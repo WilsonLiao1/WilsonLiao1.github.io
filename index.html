@@ -1,12 +1,310 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+	<title>个人简历</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/simple-line-icons.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/my_style.css">
 </head>
 <body>
-    <h1>hello wilson</h1>
+	
+
+	<header class="site-header container animated fadeInDown">
+		<div class="header-wrapper">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="site-branding">
+						<a href="#"><h1>简历</h1></a>
+					</div>
+				</div>
+				<a href="#" class="toggle-nav hidden-md hidden-lg">
+					<i class="fa fa-sign-in"></i>
+				</a>
+				<div class="col-md-8">
+					<nav id="nav" class="main-navigation hidden-xs hidden-sm">
+						<ul class="main-menu">
+							<li><a class="show-1 active homebutton" href="#">首页</a></li>
+							<li><a class="show-2 aboutbutton" href="#">关于我</a></li>
+							<li><a class="show-3 projectbutton" href="#">技能</a></li>
+							<li><a class="show-4 blogbutton" href="#">自我评价</a></li>
+							<li><a class="show-5 contactbutton" href="#">联系方式</a></li>
+						</ul>
+					</nav>
+					<nav class="main-navigation menu-responsive hidden-md hidden-lg">
+						<ul class="main-menu">
+							<li><a class="show-1 active homebutton" href="#">首页</a></li>
+							<li><a class="show-2 aboutbutton" href="#">关于我</a></li>
+							<li><a class="show-3 projectbutton" href="#">技能</a></li>
+							<li><a class="show-4 blogbutton" href="#">自我评价</a></li>
+							<li><a class="show-5 contactbutton" href="#">联系方式</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div id="menu-container">
+		<div id="menu-1" class="homepage home-section container">
+			<div class="home-intro text-center">
+				<h2 class="welcome-title animated fadeInLeft">个人简历</h2>
+				<p class="animated fadeInRight">希望能做一个优秀的前端开发工程师</p>
+				<ul class="list-icons animated fadeInUp">
+					<li><i class="icon-trophy"></i></li>
+					<li><i class="icon-badge"></i></li>
+					<li><i class="icon-magic-wand"></i></li>
+					<li><i class="icon-screen-desktop"></i></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="menu-2" class="content about-section container">
+			<div class="our-story">
+				<div class="story-bg animated fadeIn"></div>
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3">
+						<div class="inner-story animated fadeInRight text-center">
+							<h2>前端开发</h2>
+							<p>姓名：廖伟</p><br />
+							<p>出生日期：1995年1月</p><br/>
+							<p>籍贯：四川省宜宾市</p><br/>							
+							<p>现居地址：高新区中和镇</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="our-offers">
+				<div class="offer-bg animated fadeIn"></div>
+				<div class="row">
+					<div class="offer-holder">
+						<div class="col-md-6">
+							<div class="offer-item offer-1 animated fadeInLeft">
+								<div class="offer-content text-center">
+									<h4>教育经历</h4>
+									<p>毕业院校：成都大学</p><br />
+									<p>学历：统招二本</p><br />
+									<p>专业：信息与计算科学</p><br />
+
+									<span class="offer-left"><i></i></span>
+									<span class="offer-right"><i></i></span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="offer-item offer-2 animated fadeInRight">
+								<div class="offer-content text-center">
+									<h4>所获证书</h4>
+									<p>英语四级证书</p><br />
+									<p>优秀学生干部</p>
+									<span class="offer-left"><i></i></span>
+									<span class="offer-right"><i></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="menu-3" class="content project-section container">
+			<div class="projects-header">
+				<h2 class="animated fadeInRight">我的技能</h2>
+			</div>
+			<div class="projects-holder">
+				<div class="row">
+					<div class="col-md-4 col-sm-6 p-1 animated umScaleIn">
+						<div class="project-item">
+							<img src="img/html.png" alt="">
+							<div class="overlay">
+								<h4><a href="javascript:;">能使用合理的结构编写网站内容，熟悉语义化标签，了解html5新特性</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 p-2 animated umScaleIn">
+						<div class="project-item">
+							<img src="img/css.png" alt="">
+							<div class="overlay">
+								<h4><a href="javascript:;">熟悉盒子模型，会使用css3动画，媒体查询。了解css预编译器less</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 p-3 animated umScaleIn">
+						<div class="project-item">
+							<img src="img/js.png" alt="">
+							<div class="overlay">
+								<h4><a href="javascript:;">熟悉Bom、Dom，能手写原生javascript代码。懂得面向对象编程</a></h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 col-sm-6 p-4 animated umScaleIn">
+						<div class="project-item animated umScaleIn">
+							<img src="img/ps.png" alt="">
+							<div class="overlay">
+								<h4><a href="javascript:;">了解photoshop，能对设计图进行切图，还原成网页</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="project-item p-5 animated umScaleIn">
+							<img src="img/jquery.png" alt="">
+							<div class="overlay">
+								<h4><a href="javascript:;">熟练运用jQuery</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="project-item p-6 animated umScaleIn">
+							<img src="img/ajax.png" alt="">
+							<div class="overlay">
+								<h4><a href="javascript:;">熟练运用ajax技术进行数据的交互</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="project-item p-7 animated umScaleIn">
+							<img src="img/bootstrap.png" alt="">
+							<div class="overlay">
+								<h4><a href="javascript:;">能够使用bootstrap进行响应式布局</a></h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 col-sm-6 p-4 animated umScaleIn">
+						<div class="project-item animated umScaleIn">
+							<img src="img/node.png" alt="">
+							<div class="overlay">
+								<h4><a href="javascript:;">了解node的基本使用，能用express框架搭配简单服务。</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="project-item p-5 animated umScaleIn">
+							<img src="img/webpack.png" alt="">
+							<div class="overlay">
+								<h4><a href="javascript:;">了解webpack包管理工具</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="project-item p-6 animated umScaleIn">
+							<img src="img/vue.png" alt="">
+							<div class="overlay">
+								<h4><a href="javascript:;">了解mvvm开发模式，能运用vue全家桶</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="project-item p-7 animated umScaleIn">
+							<img src="img/sql.jpeg" alt="">
+							<div class="overlay">
+								<h4><a href="javascript:;">了解基本数据库语言，会使用关系型数据库mySql，非关系型数据库mongodb</a></h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 col-sm-6 p-4 animated umScaleIn">
+						<div class="project-item animated umScaleIn">
+							<img src="img/php.png" alt="">
+							<div class="overlay">
+								<h4><a href="#">会使用php基本语法，了解php搭建服务基本过程</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="project-item p-5 animated umScaleIn">
+							<img src="img/etc.png" alt="">
+							<div class="overlay">
+								<h4><a href="#">正在学习es6语法，以及reactjs的使用</a></h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="menu-4" class="content blog-section container">
+			<div class="blog-header text-center">
+				<h2 class="animated fadeInRight">自我评价</h2>
+			</div>
+			<div class="row blog-posts">
+				<div class="col-md-4 col-sm-12">
+					<div class="blog-item post-1 animated zoomIn">
+						<div class="blog-bg blog-pink"></div>
+						<div class="blog-content">
+							<h3><a href="#">技术方面</a></h3>
+							<span class="solid-line"></span>
+							<p>喜欢钻研技术，以及对新技术的学习，具有不错的自学能力以及geek精神</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div class="blog-item post-2 animated zoomIn">
+						<div class="blog-bg blog-blue"></div>
+						<div class="blog-content">
+							<h3><a href="#">个人性格</a></h3>
+							<span class="solid-line"></span>
+							<p>性格开朗，待人真诚，工作认真负责，乐观向上，能够承受压力</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div class="blog-item post-3 animated zoomIn">
+						<div class="blog-bg blog-green"></div>
+						<div class="blog-content">
+							<h3><a href="#">生活爱好</a></h3>
+							<span class="solid-line"></span>
+							<p>喜欢篮球，每周平均会打一到两次篮球。喜欢音乐，会弹吉他，电子琴</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="menu-5" class="content contact-section container">
+			<div class="contact-header text-center">
+				<h2 class="animated fadeInLeft">联系方式</h2>
+				<ul class="contact-social animated fadeInUp">
+					<li><i class="fa fa-github"></i></a></li><br />
+					<li><p>https://github.com/WilsonLiao1</p></li><br />
+					<li><i class="fa fa-phone"></i></a></li><br />
+					<li><p>tel:13990940162</p></li><br />
+					<li><i class="fa fa-envelope-o"></i></a></li><br/>
+					<li><p>email:562799733@qq.com</p></li><br />
+					<li><i class="fa fa-wechat"></i></a></li><br />
+					<li><img style="width: 200px; height: 200px;" src="img/erweima.png" alt=""></li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<footer class="site-footer container text-center">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="main-footer">
+					<p>技术决定高度</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<span class="border-top"></span>
+	<span class="border-left"></span>
+	<span class="border-right"></span>
+	<span class="border-bottom"></span>
+	<span class="shape-1"></span>
+	<span class="shape-2"></span>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/my_js.js"></script>
+
 </body>
 </html>
